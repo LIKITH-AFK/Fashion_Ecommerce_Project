@@ -71,13 +71,7 @@
   visibility: visible;
   transform: translateY(0);
 }
-.logo{
-  position: relative;
-}
-.container{
-  position: fixed;
-  
-}
+
 /* -------------------------------------------------------- */
 /* HERO SECTION */
 .hero {
@@ -1717,4 +1711,3 @@ padding-bottom: 20px;
   }
 
 }
-
