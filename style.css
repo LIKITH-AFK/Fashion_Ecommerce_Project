@@ -32,7 +32,6 @@
   color: red;
 }
 
-/* NAV ITEM */
 .nav-item {
   position: relative;
   cursor: pointer;
@@ -49,7 +48,7 @@
 .dropdown a:hover {
   background: #ff3b4a;
 }
-/* DROPDOWN BOX */
+
 .dropdown {
   position: absolute;
   top: 40px;
@@ -74,6 +73,7 @@
 
 /* -------------------------------------------------------- */
 /* HERO SECTION */
+
 .hero {
   background: rgb(244, 244, 244);
   height: auto;
@@ -95,7 +95,6 @@
   margin-bottom: 20px;
 }
 
-/* TITLE */
 .hero-title {
   font-size: 70px;
   color: rgb(52, 50, 50);
@@ -124,9 +123,9 @@
 
 .hero-right {
   position: relative;
-  width: 50%;        /* change from 70% */
+  width: 50%;     
   height: 400px;
-  overflow: hidden;  /* IMPORTANT */
+  overflow: hidden; 
 }
 
 .slide {
@@ -137,20 +136,15 @@
 
 .frame {
   position: absolute;
-
-  width: 80%;     /* responsive instead of fixed 500px */
-  height: 90%;    /* instead of 600px */
-
-  max-width: 450px;   /* optional safety */
+  width: 80%;   
+  height: 90%;  
+  max-width: 450px; 
   max-height: 500px;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   overflow: hidden;
   opacity: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,7 +153,7 @@
 .frame img {
   width: 100%;
   height: 100%;
-  object-fit: contain;   /* KEY FIX */
+  object-fit: contain;  
 }
 
 .frame .img {
@@ -247,14 +241,12 @@
   text-align: center;
 }
 
-/* ICON */
 .season-left .icon {
   color: red;
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-/* TITLE */
 .season-left h1 {
   font-size: 60px;
   font-weight: 400;
@@ -262,7 +254,6 @@
   margin-bottom: 10px;
 }
 
-/* SUBTEXT */
 .season-left p {
   font-size: 14px;
   letter-spacing: 2px;
@@ -270,7 +261,6 @@
   margin-bottom: 30px;
 }
 
-/* BUTTON */
 .season-left button {
   background: #ff3b4a;
   color: white;
@@ -281,12 +271,10 @@
   transition: 0.3s;
 }
 
-/* HOVER EFFECT ✅ */
 .season-left button:hover {
   background: #e6323f;
 }
 
-/* RIGHT SECTION */
 .season-right {
   width: 50%;
   height: 500px;  
@@ -311,7 +299,6 @@
   transform: translateX(-50%);
 }
 
-/* SECTION TITLE */
 .section-title {
   text-align: center;
   margin-bottom: 40px;
@@ -339,12 +326,10 @@ padding-top: 50px;
 padding-bottom: 20px;
 }
 
-/* PRODUCT CARD */
 .product {
   width: 300px;
 }
 
-/* IMAGE AREA */
 .product-img {
   position: relative;
   width: 100%;
@@ -352,7 +337,6 @@ padding-bottom: 20px;
   overflow: hidden;
 }
 
-/* IMAGES */
 .product-img img {
   position: absolute;
   width: 100%;
@@ -361,19 +345,16 @@ padding-bottom: 20px;
   transition: 0.4s ease;
 }
 
-/* FRONT */
 .img-front {
   opacity: 1;
   z-index: 2;
 }
 
-/* HOVER */
 .img-hover {
   opacity: 0;
   z-index: 1;
 }
 
-/* 🔥 IMAGE SWAP */
 .product-img:hover .img-front {
   opacity: 0;
 }
@@ -382,20 +363,17 @@ padding-bottom: 20px;
   opacity: 1;
 }
 
-/* TITLE */
 .title {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* CATEGORY */
 .category {
   font-size: 11px;
   color: gray;
   margin-bottom: 10px;
 }
 
-/* LINE + CART */
 .divider-row {
   display: flex;
   align-items: center;
@@ -403,35 +381,29 @@ padding-bottom: 20px;
   margin: 10px 0;
 }
 
-/* LINE */
 .line {
   flex: 1;
   height: 1px;
   background: #ddd;
 }
 
-/* CART ICON */
 .cart {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   background: #eee;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   cursor: pointer;
   transition: 0.3s;
 }
 
-/* 🔥 CART HOVER */
 .cart:hover {
   background: red;
   color: white;
 }
 
-/* PRICE */
 .price {
   font-size: 14px;
 }
@@ -457,7 +429,6 @@ padding-bottom: 20px;
   background: #f5f5f5;
 }
 
-/* LEFT IMAGE */
 .sale-left {
   position: relative;
   width: 30%;
@@ -468,20 +439,16 @@ padding-bottom: 20px;
   display: block;
 }
 
-/* FRAME EFFECT */
 .sale-left .frame {
   position: absolute;
   top: 30px;
   left: 30px;
-
   width: 80%;
   height: 80%;
-
   border: 15px solid #eee;
   z-index: 2;
 }
 
-/* CENTER CONTENT */
 .sale-center {
   width: 40%;
   text-align: center;
@@ -500,7 +467,6 @@ padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
-/* TIMER */
 .timer {
   display: flex;
   justify-content: center;
@@ -517,7 +483,6 @@ padding-bottom: 20px;
   color: #777;
 }
 
-/* BUTTON */
 .sale-center button {
   background: red;
   color: white;
@@ -530,12 +495,10 @@ padding-bottom: 20px;
   transition: 0.3s;
 }
 
-/* 🔥 HOVER EFFECT */
 .sale-center button:hover {
   background: lightcoral;
 }
 
-/* RIGHT IMAGE */
 .sale-right {
   width: 30%;
 }
@@ -609,23 +572,19 @@ padding-bottom: 20px;
 .exp-right {
   width: 50%;
   background: white;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   text-align: center;
 }
 
-/* ICON */
 .exp-right .icon {
   font-size: 20px;
   color: red;
   margin-bottom: 15px;
 }
 
-/* TITLE */
 .exp-right h2 {
   font-size: 50px;
   font-weight: 400;
@@ -633,7 +592,6 @@ padding-bottom: 20px;
   margin-bottom: 10px;
 }
 
-/* SUBTEXT */
 .exp-right p {
   font-size: 12px;
   letter-spacing: 2px;
@@ -641,12 +599,10 @@ padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
-/* BUTTON */
 .exp-right button {
   background: red;
   color: white;
   border: none;
-
   padding: 12px 30px;
   cursor: pointer;
   transition: 0.3s;
@@ -665,7 +621,7 @@ padding-bottom: 20px;
   padding-top: 90px;
   padding-bottom: -20px;
 }
-/* SECTION */
+
 .products-section {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 items per row */
@@ -675,12 +631,10 @@ padding-bottom: 20px;
   padding-bottom: 40px;
 }
 
-/* CARD */
 .product-card {
   width: 100%;
 }
 
-/* IMAGE BOX */
 .product-img {
   position: relative;
   width: 100%;
@@ -688,7 +642,6 @@ padding-bottom: 20px;
   overflow: hidden;
 }
 
-/* IMAGES */
 .product-img img {
   position: absolute;
   width: 100%;
@@ -697,19 +650,16 @@ padding-bottom: 20px;
   transition: 0.4s ease;
 }
 
-/* FRONT IMAGE */
 .img-front {
   opacity: 1;
   z-index: 2;
 }
 
-/* HOVER IMAGE */
 .img-hover {
   opacity: 0;
   z-index: 1;
 }
 
-/* 🔥 HOVER EFFECT */
 .product-img:hover .img-front {
   opacity: 0;
 }
@@ -718,72 +668,60 @@ padding-bottom: 20px;
   opacity: 1;
 }
 
-/* TITLE */
 .product-card h4 {
   font-size: 14px;
   margin-top: 10px;
   color: #333;
 }
 
-/* CATEGORY */
 .category {
   font-size: 11px;
   color: #888;
   margin: 5px 0 15px;
 }
 
-/* LINE + CART */
 .product-bottom {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-/* LINE */
 .line {
   flex: 1;
   height: 1px;
   background: #ddd;
 }
 
-/* CART ICON */
 .cart {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   background: #eee;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   cursor: pointer;
   transition: 0.3s;
 }
 
-/* 🔥 CART HOVER */
 .cart:hover {
   background: red;
   color: white;
 }
 
-/* PRICE */
 .price {
   margin-top: 10px;
   font-weight: bold;
 }
 
 /* ------------------------------------------------------------------- */
-
 /* BRAND SECTION */
 .brands {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   max-width: 1400px;
   margin: auto;
-
   padding: 60px 40px;
   background: white;
 }
@@ -803,14 +741,11 @@ padding-bottom: 20px;
 .subscribe-section {
   position: relative;
   height: 500px;
-
-  background: url('./images/bg.jpg') center/cover no-repeat;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* Baground img */
+
 .bg-img {
   position: absolute;
   width: 100%;
@@ -818,7 +753,6 @@ padding-bottom: 20px;
   object-fit: cover;
 }
 
-/* DARK OVERLAY */
 .overlay {
   position: absolute;
   width: 100%;
@@ -826,21 +760,18 @@ padding-bottom: 20px;
   background: rgba(0,0,0,0.4);
 }
 
-/* CONTENT */
 .subscribe-content {
   position: relative;
   text-align: center;
   color: white;
 }
 
-/* TITLE */
 .subscribe-content h1 {
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 15px;
 }
 
-/* SUBTEXT */
 .subscribe-content p {
   font-size: 12px;
   letter-spacing: 2px;
@@ -878,7 +809,7 @@ padding-bottom: 20px;
 /* SECTION */
 .magazine {
   padding: 80px;
-  background: #f7f7f7;
+  background: whitesmoke;
 }
 
 /* HEADER */
@@ -939,7 +870,6 @@ padding-bottom: 20px;
   z-index: 1;
 }
 
-/* 🔥 HOVER EFFECT */
 .mag-img:hover .img-front {
   opacity: 0;
 }
@@ -1053,7 +983,6 @@ padding-bottom: 20px;
   transition: 0.4s;
 }
 
-/* 🔥 HOVER */
 .mag-img:hover img {
   transform: scale(1.08);
 }
