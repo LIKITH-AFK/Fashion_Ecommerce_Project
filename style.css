@@ -1058,6 +1058,7 @@ padding-bottom: 20px;
   padding-top: 70px;
   padding-left: 150px;
   padding-bottom: 50px;
+  bottom: 0;
 }
 
 /* TITLE */
@@ -1639,4 +1640,37 @@ padding-bottom: 20px;
     margin-top: 5px;
   }
 
+}
+/* ------------------------------- */
+/* LOGO FIXED */
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* NAVBAR FIXED */
+.container {
+  position: fixed;
+  top: 70px;   /* adjust based on logo height */
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  padding: 15px 0;
+}
+body {
+  padding-top: 100px;
+  position: absolute;
 }
